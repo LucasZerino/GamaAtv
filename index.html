@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Gama</title>
+    <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+<!-- CSS Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!------Bootstrap Icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--CSS do projeto-->
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+  
+    <!-------NAVBAR início------->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand">
+                <img src='./assets/img/Navlogo.png' alt="Gama Barbearia">
+                <span class="nav-tit2">Barbearia<span class="nav-tit">Gama</span></span>
+            </a>
+       
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#quem" class="nav-link">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#horario" class="nav-link">Horário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link">Barbeiros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------NAVBAR FIM------->
+
+
+
+     <!-- ======= HERO INICIO ======= -->
+  <section id="home">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style='background-image: url(./assets/img/car-1.jpg);'>
+  
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="hero-tit">Barbearia <span>Gama</span></h5>
+            <a href="#" class="btn btn-dark ancora"><span class="spanBotao">AGENDAR</span></a>
+          </div>
+        </div>
+        <div class="carousel-item" style='background-image: url(./assets/img/car-2.jpg);'>
+         
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="hero-tit">Barbearia <span>Gama</span></h5>
+            <a href="#" class="btn btn-dark ancora"><span class="spanBotao">AGENDAR</span></a>
+          </div>
+        </div>
+        <div class="carousel-item" style='background-image: url(./assets/img/car-3.jpg);'>
+         
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="hero-tit">Barbearia <span>Gama</span></h5>
+            <a href="#" class="btn btn-dark ancora"><span class="spanBotao">AGENDAR</span></a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- HERO FIM -->
+
+
+
+  <!------SOBRE NÓS INÍCIO-->
+
+  <section class="sobre section-padding30 position-relative" id="quem">
+      <div class="container">
+          <div class="row align-items-center py-5">
+            <div class="col-lg-6 col-md-12">
+              <div class="about-img ">
+                <img src="./assets/img/sobre.png" alt="">
+              </div>
+             </div>
+             <div class="col-lg-6 col-md-11">
+              <div class="sobre-text">
+                <div class="section-tittle section-tittle3 mb-35">
+                    <span>Um pouco sobre nós</span>
+                    <h2>Bem vindo a Barbearia Gama!</h2>
+                </div>
+                <p class="pera-top mb-50">      Localizada no coração da cidade de São Paulo a <strong>Barbearia Gama</strong> traz
+                  para o mercado o que há de melhor no conceito de Barbearia e Cabelo.</p>
+                <img src="assets/img/gallery/signature.png" alt="">
+              </div>
+             </div>
+          </div>
+      </div>
+  </section>
+
+    <!--SOBRE NÓS FIM-->
+
+
+
+
+      <!-- HORÁRIO INÍCIO -->
+      <section class="service-area py-5" id="horario">
+        <div class="container">
+          <div class="row horario">
+           <div class="col-6 hor-esq">
+            <h1>PROFISSIONAIS CAPACITADOS<br> ESPERANDO VOCÊ</h1>
+            <h6> Localizada no coração da cidade de São Paulo a <strong>Barbearia Gama</strong> traz<br>
+              para o mercado o que há de melhor no conceito de Barbearia e Cabelo. Agende já seu horário</h6>
+              <a href="#" class="btn btn-dark ancora2"><span class="spanBotao2">AGENDAR</span></a>
+           </div>
+           <div class="col-6 hor-dir">
+            <h1>HORÁRIO ESPECIAL DE ATENDIMENTO</h1>
+            <div class="row">
+              <div class="col-6">
+                <h4>SEGUNDA: 9:00 – 17:30</h4>
+                <h4>TERÇA: 9:00 – 17:30</h4>
+                <h4>QUARTA: 9:00 – 17:30</h4>
+              </div>
+              <div class="col-6">
+                <h4>QUINTA: 9:00 – 17:30</h4>
+                <h4>SEXTA: 9:00 – 17:30</h4>
+                <h4>SÁBADO: 9:00 – 17:30</h4>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+    <!-- HORÁRIO FINAL -->
+
+
+    <!----BARBEIROS INICIO-->
+    <div class="barbeiros pb-180" id="team">
+      <div class="container ">
+          <!-- Section Tittle -->
+          <div class="row justify-content-center">
+              <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
+                  <div class="section-tittle text-center mb-100">
+                      <span>Nosso Time</span>
+                      <h2>Prezamos pela excelência no corte</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="d-flex justify-content-between col-md-12 team-c">
+              <!-- single Tem -->
+              <div class="1">
+                <div class="cartao">
+                  <div class="imgBx">
+                    <img class="cartao-img" src="./assets/img/b1.png">
+                  </div>
+                  <div class="details">
+                    <h3>Barbeiro Profissional<br></h3>
+                    <h4>Lucas Matheus</h4>
+                    <p>Formado em barbearia pelo SENAI, atuando na área desde 2010</p>
+                    <div class="group">
+                      <a href="#">AGENDAR</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+              <div class="2">
+                <div class="cartao">
+                  <div class="imgBx">
+                    <img class="cartao-img" src="./assets/img/b3.png">
+                  </div>
+                  <div class="details">
+                    <h3>Barbeiro Profissional<br></h3>
+                    <h4>Lucas Matheus</h4>
+                    <p>Formado em barbearia pelo SENAI, atuando na área desde 2010</p>
+                    <div class="group">
+                      <a href="#">AGENDAR</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+     <!----BARBEIROS FINAL-->
+
+
+
+
+     <!------FOOTER INICIO-->
+     <footer>
+      <!--? Footer Start-->
+     <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+      <!-- Footer End-->
+  </footer>
+</body>
+</html>
